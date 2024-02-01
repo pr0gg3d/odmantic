@@ -40,8 +40,8 @@ requires-python = ">=3.8"
 dependencies = [
     "pydantic >=2.5.2",
     "typing-extensions >= 4.2.0; python_version<'3.11'",
-    "motor >=3.1.1",
-    "pymongo >=4.1.0",
+    "motor==2.5.1",
+    "pymongo==3.13.0"
 ]
 [project.optional-dependencies]
 test = [
